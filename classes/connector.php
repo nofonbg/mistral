@@ -35,13 +35,15 @@ class connector extends \local_ai_manager\base_connector {
 
     #[\Override]
     public function get_models_by_purpose(): array {
-        $models = ['mistral-large-latest', 'pixtral-large-latest'];
+        $models = ['mistral-small-latest', 'pixtral-large-latest'];
         return [
                 'chat' => $models,
                 'feedback' => $models,
                 'singleprompt' => $models,
                 'translate' => $models,
                 'itt' => ['pixtral-large-latest'],
+                'agent' => $models,
+
         ];
     }
 
