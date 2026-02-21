@@ -43,7 +43,7 @@ class connector extends \local_ai_manager\base_connector {
                 'translate' => $models,
                 'itt' => ['pixtral-large-latest'],
                 'agent' => $models,
-
+                'questiongeneration' => $models,
         ];
     }
 
