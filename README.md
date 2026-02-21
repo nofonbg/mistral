@@ -5,4 +5,4 @@ to be placed in yourmoodle/local/ai_manager/tools/mistral
 
 or since moodle 5.1 in yourmoodle/public/local/ai_manager/tools/mistral
 
-API-Kexy required
+API-Key required
