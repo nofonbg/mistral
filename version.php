@@ -26,6 +26,6 @@ defined('MOODLE_INTERNAL') || die();
 
 $plugin->version  = 2024021000;
 $plugin->requires = 2023042403;
-$plugin->release = '0.0.1';
+$plugin->release = '0.0.2';
 $plugin->component = 'aitool_mistral';
 $plugin->maturity = MATURITY_ALPHA;
